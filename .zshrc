@@ -2,8 +2,8 @@
 export LANG=ja_JP.UTF-8
 export LESSCHARSET=utf-8
 
-## rvm設定
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+# rbenv
+eval "$(rbenv init -)"
 ## alias設定
 [ -f ~/dotfiles/.zshrc.alias ] && source ~/dotfiles/.zshrc.alias
 
