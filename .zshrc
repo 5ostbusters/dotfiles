@@ -24,3 +24,6 @@ setopt nolistbeep
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s /Users/ryo/.tmuxinator/scripts/tmuxinator ]] && source /Users/ryo/.tmuxinator/scripts/tmuxinator
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
